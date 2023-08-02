@@ -11,6 +11,10 @@
 		BDFF79412A7A918A00FBD6AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF79402A7A918A00FBD6AB /* ContentView.swift */; };
 		BDFF79432A7A918B00FBD6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFF79422A7A918B00FBD6AB /* Assets.xcassets */; };
 		BDFF79462A7A918B00FBD6AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFF79452A7A918B00FBD6AB /* Preview Assets.xcassets */; };
+		BDFF794D2A7A93FE00FBD6AB /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF794C2A7A93FE00FBD6AB /* ToDoItem.swift */; };
+		BDFF79512A7A983000FBD6AB /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF79502A7A983000FBD6AB /* NewToDoView.swift */; };
+		BDFF79532A7AA68E00FBD6AB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF79522A7AA68E00FBD6AB /* Persistence.swift */; };
+		BDFF79562A7AA86F00FBD6AB /* To-DoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDFF79542A7AA86F00FBD6AB /* To-DoList.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BDFF79402A7A918A00FBD6AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDFF79422A7A918B00FBD6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDFF79452A7A918B00FBD6AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDFF794C2A7A93FE00FBD6AB /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BDFF79502A7A983000FBD6AB /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BDFF79522A7AA68E00FBD6AB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BDFF79552A7AA86F00FBD6AB /* To-DoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "To-DoList.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				BDFF793E2A7A918A00FBD6AB /* To_DoListApp.swift */,
 				BDFF79402A7A918A00FBD6AB /* ContentView.swift */,
+				BDFF79522A7AA68E00FBD6AB /* Persistence.swift */,
+				BDFF79502A7A983000FBD6AB /* NewToDoView.swift */,
+				BDFF794C2A7A93FE00FBD6AB /* ToDoItem.swift */,
 				BDFF79422A7A918B00FBD6AB /* Assets.xcassets */,
 				BDFF79442A7A918B00FBD6AB /* Preview Content */,
+				BDFF79542A7AA86F00FBD6AB /* To-DoList.xcdatamodeld */,
 			);
 			path = "To-DoList";
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDFF79412A7A918A00FBD6AB /* ContentView.swift in Sources */,
+				BDFF79562A7AA86F00FBD6AB /* To-DoList.xcdatamodeld in Sources */,
 				BDFF793F2A7A918A00FBD6AB /* To_DoListApp.swift in Sources */,
+				BDFF794D2A7A93FE00FBD6AB /* ToDoItem.swift in Sources */,
+				BDFF79512A7A983000FBD6AB /* NewToDoView.swift in Sources */,
+				BDFF79532A7AA68E00FBD6AB /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +353,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDFF79542A7AA86F00FBD6AB /* To-DoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDFF79552A7AA86F00FBD6AB /* To-DoList.xcdatamodel */,
+			);
+			currentVersion = BDFF79552A7AA86F00FBD6AB /* To-DoList.xcdatamodel */;
+			path = "To-DoList.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BDFF79332A7A918A00FBD6AB /* Project object */;
 }
